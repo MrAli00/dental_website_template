@@ -90,9 +90,9 @@ export default function ChatbotWidget() {
               value={input}
               onChange={handleInputChange}
               placeholder="Chiedimi qualsiasi cosa..."
-              className="flex-1 p-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-dental-teal bg-slate-50 dark:bg-slate-800 dark:border-slate-600 text-sm"
+              className="flex-1 p-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-dental-teal bg-slate-50 dark:bg-slate-800 dark:border-slate-600 text-sm text-slate-900 dark:text-white"
               disabled={isLoading}
-            />
+           />
             <button
               type="submit"
               disabled={isLoading}
